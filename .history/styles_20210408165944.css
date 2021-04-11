@@ -1,0 +1,9 @@
+body {
+  background-image: url("assets\bgc.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}

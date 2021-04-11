@@ -1,0 +1,7 @@
+body {
+  background-image: url("D:\Programowanko\Moje Linktree\assets\bgc.jpg/");
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
