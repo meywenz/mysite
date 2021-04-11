@@ -168,7 +168,7 @@ a:hover {
   left: 50%;
   top: 50%;
   /* The following will size the video to fit the full container. Not necessary, just nice.*/
-/* min-width: 100%;
+  min-width: 100%;
   min-height: 100%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -199,6 +199,7 @@ place-items: center */
   display: flex;
   justify-content: center;
   align-items: center;
+
   animation: fadeOutFromFull 1s ease-out both;
   animation-delay: 5s;
 }
