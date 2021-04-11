@@ -63,7 +63,6 @@ img {
   opacity: 0;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-  font-weight: bold;
 }
 /* .container_links{
   animation-name: fadeInFromNone;
@@ -142,7 +141,6 @@ a:hover {
   opacity: 0;
   animation-delay: 10s;
   animation-fill-mode: forwards;
-  font-weight: bold;
 }
 .logo-bottom {
   max-height: 7px;
