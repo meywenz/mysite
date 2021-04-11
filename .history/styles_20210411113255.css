@@ -21,7 +21,8 @@ body {
   background-size: cover;
   animation: fadeInFromNone 1s ease-out both;
 }
-
+.container {
+}
 img {
   border-radius: 50%;
 }
@@ -29,7 +30,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
+  margin-top: 10%;
   height: auto;
   max-width: 150px;
   animation-name: imageY, fadeInFromNone;
