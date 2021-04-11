@@ -17,7 +17,7 @@ body {
   font-size: 15px;
   letter-spacing: 2px;
   color: #fff;
-  /* overflow: scroll; */
+  overflow: scroll;
   background-size: cover;
   animation: fadeInFromNone 1s ease-out both;
   scrollbar-width: none; /* Firefox */
@@ -59,7 +59,7 @@ img {
 }
 .bio {
   text-align: center;
-  padding: 30px;
+  /* padding: 30px; */
   animation-name: imageY2, fadeInFromNone;
   animation-duration: 3s;
   opacity: 0;

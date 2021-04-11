@@ -17,11 +17,11 @@ body {
   font-size: 15px;
   letter-spacing: 2px;
   color: #fff;
-  /* overflow: scroll; */
+  overflow: scroll;
   background-size: cover;
   animation: fadeInFromNone 1s ease-out both;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  /* scrollbar-width: none; Firefox */
+  /* -ms-overflow-style: none; IE 10+ */
 }
 
 body::-webkit-scrollbar {
