@@ -21,7 +21,6 @@ body {
   animation: fadeInFromNone 1s ease-out both;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
-  position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -145,6 +144,8 @@ a:hover {
   animation-delay: 10s;
   animation-fill-mode: forwards;
   font-weight: bold;
+  bottom: 5%;
+  margin: 0 auto;
 }
 .logo-bottom {
   max-height: 7px;
@@ -154,10 +155,11 @@ a:hover {
   opacity: 0;
   animation-delay: 10s;
   animation-fill-mode: forwards;
+
+  /* transform: translate(-50%, -50%); */
+  /* margin: 0 auto; */
 }
-.wrapper {
-  min-height: calc(100vh - 10%);
-}
+
 .logo-top {
   /* padding: 30px; */
   max-height: 25%;
@@ -221,7 +223,7 @@ place-items: center */
 
 @keyframes imageY2 {
   from {
-    transform: translateY(15%);
+    transform: translateY(10%);
   }
   to {
     transform: translateY(0%);

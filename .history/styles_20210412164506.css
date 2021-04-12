@@ -156,7 +156,7 @@ a:hover {
   animation-fill-mode: forwards;
 }
 .wrapper {
-  min-height: calc(100vh - 10%);
+  min-height: calc(100vh - 17px);
 }
 .logo-top {
   /* padding: 30px; */
@@ -221,7 +221,7 @@ place-items: center */
 
 @keyframes imageY2 {
   from {
-    transform: translateY(15%);
+    transform: translateY(10%);
   }
   to {
     transform: translateY(0%);
